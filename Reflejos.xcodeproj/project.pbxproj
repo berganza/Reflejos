@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D5C749D17A2E3E600DE19C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D5C749C17A2E3E600DE19C1 /* UIKit.framework */; };
+		7D5C749F17A2E3E600DE19C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D5C749E17A2E3E600DE19C1 /* Foundation.framework */; };
+		7D5C74A117A2E3E600DE19C1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D5C74A017A2E3E600DE19C1 /* CoreGraphics.framework */; };
+		7D5C74A717A2E3E600DE19C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D5C74A517A2E3E600DE19C1 /* InfoPlist.strings */; };
+		7D5C74A917A2E3E600DE19C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5C74A817A2E3E600DE19C1 /* main.m */; };
+		7D5C74AD17A2E3E600DE19C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5C74AC17A2E3E600DE19C1 /* AppDelegate.m */; };
+		7D5C74AF17A2E3E600DE19C1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D5C74AE17A2E3E600DE19C1 /* Default.png */; };
+		7D5C74B117A2E3E600DE19C1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D5C74B017A2E3E600DE19C1 /* Default@2x.png */; };
+		7D5C74B317A2E3E600DE19C1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D5C74B217A2E3E600DE19C1 /* Default-568h@2x.png */; };
+		7D5C74B617A2E3E600DE19C1 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D5C74B417A2E3E600DE19C1 /* MainStoryboard_iPhone.storyboard */; };
+		7D5C74B917A2E3E600DE19C1 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D5C74B717A2E3E600DE19C1 /* MainStoryboard_iPad.storyboard */; };
+		7D5C74BC17A2E3E600DE19C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5C74BB17A2E3E600DE19C1 /* ViewController.m */; };
+		7D5C74C317A2E40800DE19C1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D5C74C217A2E40800DE19C1 /* QuartzCore.framework */; };
+		7D5C74CB17A2F3D400DE19C1 /* castillo de eilean donan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D5C74CA17A2F3D400DE19C1 /* castillo de eilean donan.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7D5C749917A2E3E600DE19C1 /* Reflejos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reflejos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D5C749C17A2E3E600DE19C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7D5C749E17A2E3E600DE19C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7D5C74A017A2E3E600DE19C1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7D5C74A417A2E3E600DE19C1 /* Reflejos-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Reflejos-Info.plist"; sourceTree = "<group>"; };
+		7D5C74A617A2E3E600DE19C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7D5C74A817A2E3E600DE19C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D5C74AA17A2E3E600DE19C1 /* Reflejos-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Reflejos-Prefix.pch"; sourceTree = "<group>"; };
+		7D5C74AB17A2E3E600DE19C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7D5C74AC17A2E3E600DE19C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7D5C74AE17A2E3E600DE19C1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7D5C74B017A2E3E600DE19C1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7D5C74B217A2E3E600DE19C1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7D5C74B517A2E3E600DE19C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		7D5C74B817A2E3E600DE19C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		7D5C74BA17A2E3E600DE19C1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7D5C74BB17A2E3E600DE19C1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7D5C74C217A2E40800DE19C1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7D5C74CA17A2F3D400DE19C1 /* castillo de eilean donan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "castillo de eilean donan.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D5C749617A2E3E600DE19C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D5C74C317A2E40800DE19C1 /* QuartzCore.framework in Frameworks */,
+				7D5C749D17A2E3E600DE19C1 /* UIKit.framework in Frameworks */,
+				7D5C749F17A2E3E600DE19C1 /* Foundation.framework in Frameworks */,
+				7D5C74A117A2E3E600DE19C1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D5C749017A2E3E600DE19C1 = {
+			isa = PBXGroup;
+			children = (
+				7D5C74CA17A2F3D400DE19C1 /* castillo de eilean donan.jpg */,
+				7D5C74C217A2E40800DE19C1 /* QuartzCore.framework */,
+				7D5C74A217A2E3E600DE19C1 /* Reflejos */,
+				7D5C749B17A2E3E600DE19C1 /* Frameworks */,
+				7D5C749A17A2E3E600DE19C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D5C749A17A2E3E600DE19C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D5C749917A2E3E600DE19C1 /* Reflejos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D5C749B17A2E3E600DE19C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D5C749C17A2E3E600DE19C1 /* UIKit.framework */,
+				7D5C749E17A2E3E600DE19C1 /* Foundation.framework */,
+				7D5C74A017A2E3E600DE19C1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D5C74A217A2E3E600DE19C1 /* Reflejos */ = {
+			isa = PBXGroup;
+			children = (
+				7D5C74AB17A2E3E600DE19C1 /* AppDelegate.h */,
+				7D5C74AC17A2E3E600DE19C1 /* AppDelegate.m */,
+				7D5C74B417A2E3E600DE19C1 /* MainStoryboard_iPhone.storyboard */,
+				7D5C74B717A2E3E600DE19C1 /* MainStoryboard_iPad.storyboard */,
+				7D5C74BA17A2E3E600DE19C1 /* ViewController.h */,
+				7D5C74BB17A2E3E600DE19C1 /* ViewController.m */,
+				7D5C74A317A2E3E600DE19C1 /* Supporting Files */,
+			);
+			path = Reflejos;
+			sourceTree = "<group>";
+		};
+		7D5C74A317A2E3E600DE19C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D5C74A417A2E3E600DE19C1 /* Reflejos-Info.plist */,
+				7D5C74A517A2E3E600DE19C1 /* InfoPlist.strings */,
+				7D5C74A817A2E3E600DE19C1 /* main.m */,
+				7D5C74AA17A2E3E600DE19C1 /* Reflejos-Prefix.pch */,
+				7D5C74AE17A2E3E600DE19C1 /* Default.png */,
+				7D5C74B017A2E3E600DE19C1 /* Default@2x.png */,
+				7D5C74B217A2E3E600DE19C1 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D5C749817A2E3E600DE19C1 /* Reflejos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D5C74BF17A2E3E600DE19C1 /* Build configuration list for PBXNativeTarget "Reflejos" */;
+			buildPhases = (
+				7D5C749517A2E3E600DE19C1 /* Sources */,
+				7D5C749617A2E3E600DE19C1 /* Frameworks */,
+				7D5C749717A2E3E600DE19C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reflejos;
+			productName = Reflejos;
+			productReference = 7D5C749917A2E3E600DE19C1 /* Reflejos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D5C749117A2E3E600DE19C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Berganza;
+			};
+			buildConfigurationList = 7D5C749417A2E3E600DE19C1 /* Build configuration list for PBXProject "Reflejos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7D5C749017A2E3E600DE19C1;
+			productRefGroup = 7D5C749A17A2E3E600DE19C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D5C749817A2E3E600DE19C1 /* Reflejos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D5C749717A2E3E600DE19C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D5C74A717A2E3E600DE19C1 /* InfoPlist.strings in Resources */,
+				7D5C74AF17A2E3E600DE19C1 /* Default.png in Resources */,
+				7D5C74B117A2E3E600DE19C1 /* Default@2x.png in Resources */,
+				7D5C74B317A2E3E600DE19C1 /* Default-568h@2x.png in Resources */,
+				7D5C74B617A2E3E600DE19C1 /* MainStoryboard_iPhone.storyboard in Resources */,
+				7D5C74B917A2E3E600DE19C1 /* MainStoryboard_iPad.storyboard in Resources */,
+				7D5C74CB17A2F3D400DE19C1 /* castillo de eilean donan.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D5C749517A2E3E600DE19C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D5C74A917A2E3E600DE19C1 /* main.m in Sources */,
+				7D5C74AD17A2E3E600DE19C1 /* AppDelegate.m in Sources */,
+				7D5C74BC17A2E3E600DE19C1 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7D5C74A517A2E3E600DE19C1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D5C74A617A2E3E600DE19C1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7D5C74B417A2E3E600DE19C1 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D5C74B517A2E3E600DE19C1 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		7D5C74B717A2E3E600DE19C1 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D5C74B817A2E3E600DE19C1 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D5C74BD17A2E3E600DE19C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D5C74BE17A2E3E600DE19C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D5C74C017A2E3E600DE19C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Reflejos/Reflejos-Prefix.pch";
+				INFOPLIST_FILE = "Reflejos/Reflejos-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7D5C74C117A2E3E600DE19C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Reflejos/Reflejos-Prefix.pch";
+				INFOPLIST_FILE = "Reflejos/Reflejos-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D5C749417A2E3E600DE19C1 /* Build configuration list for PBXProject "Reflejos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D5C74BD17A2E3E600DE19C1 /* Debug */,
+				7D5C74BE17A2E3E600DE19C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D5C74BF17A2E3E600DE19C1 /* Build configuration list for PBXNativeTarget "Reflejos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D5C74C017A2E3E600DE19C1 /* Debug */,
+				7D5C74C117A2E3E600DE19C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D5C749117A2E3E600DE19C1 /* Project object */;
+}
